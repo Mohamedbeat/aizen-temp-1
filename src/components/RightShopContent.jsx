@@ -18,7 +18,7 @@ export default function RightShopContent() {
           Our Products
         </h2>
 
-        <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
+        <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8 relative ">
           {/* Items */}
 
           {products !== null && products.length !== 0 ? (
@@ -59,7 +59,9 @@ export default function RightShopContent() {
               );
             })
           ) : (
-            <p>No products found </p>
+            <p className="flex items-center justify-center text-[20px] sm:text-[25px] inset-0 w-full sm:mt-[100px] absolute ">
+              No products found
+            </p>
           )}
           {}
         </div>

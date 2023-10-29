@@ -71,7 +71,7 @@ export default function Shop() {
           {/*  */}
           <div
             className="
-                sm:flex sm:flex-row sm:items-start sm:justify-between gap-4  "
+                sm:flex sm:flex-row sm:items-start sm:justify-between gap-4 w-[80%] sm:w-full "
           >
             <LeftShopContent />
             <RightShopContent />
